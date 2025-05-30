@@ -15,3 +15,4 @@
 ##  Example ⚙️ Generations:
 ## 2002 North Atlantic Hurricane Season
 ![Summary map generated with TrackTempest](/Example%20Generations/2002_natl.png)
+Generated with TrackTempest
