@@ -78,7 +78,7 @@
 		<img src="static/media/favicon.png" width="256px" height="256px" style="display: block; margin-left: auto; margin-right: auto;"></img>
 		<h1>TrackTempest</h1>
 		<h3 style="text-align:center; color:black;">A fork of <a href="https://github.com/StrawberryMaster/TrackGen">https://github.com/StrawberryMaster/TrackGen</a></h2>
-		<h4>Ver 0.0.0.2</h4>
+		<h4 style="text-align:center;">Ver 0.0.0.3</h4>
 	<br>
 		<div id="input-type">
 			<button type="submit" class="selected">⌨️ Manual Input</button>
@@ -117,7 +117,7 @@
 		<div class="page">
 			<div id="headers">
 				<h3>❓ Name</h3>
-				<h3>🔼🔽 Latitude</h3>
+				<h3>⬆️⬇️ Latitude</h3>
 				<h3>⬅️➡️ Longitude</h3>
 				<h3>💨 Wind 🧭 Speed</h3>
 				<h3>🌀 Stage</h3>
@@ -140,8 +140,8 @@
 									name="latitude" required>
 							</label>
 							<select class="latitude" name="latitude-format" aria-label="Latitude format">
-								<option value="°N">°N</option>
-								<option value="°S">°S</option>
+								<option value="°N">⬆️°N</option>
+								<option value="°S">⬇️°S</option>
 							</select>
 						</div>
 
@@ -152,8 +152,8 @@
 									aria-label="Longitude" name="longitude" required>
 							</label>
 							<select class="longitude" name="longitude-format" aria-label="Longitude format">
-								<option value="°E">°E</option>
-								<option value="°W">°W</option>
+								<option value="°E">➡️°E</option>
+								<option value="°W">⬅️°W</option>
 							</select>
 						</div>
 
@@ -164,9 +164,9 @@
 									name="speed">
 							</label>
 							<select class="speed" name="speed-format" aria-label="Wind speed format">
-								<option value="kph">kph</option>
+								<option value="kph">km/h</option>
 								<option value="mph">mph</option>
-								<option value="kt">kt</option>
+								<option value="kt">kts</option>
 							</select>
 						</div>
 
@@ -174,9 +174,9 @@
 							<label>
 								<span>Stage: </span>
 								<select class="stage" name="stage">
-									<option value="Extratropical cyclone">Extratropical cyclone</option>
-									<option value="Subtropical cyclone">Subtropical cyclone</option>
-									<option value="Tropical cyclone">Tropical cyclone</option>
+									<option value="Extratropical cyclone">👽 Extratropical 🌀 Cyclone</option>
+									<option value="Subtropical cyclone">➖ Subtropical 🌀 Cyclone</option>
+									<option value="Tropical cyclone">🍹Tropical 🌀 Cyclone</option>
 								</select>
 							</label>
 						</div>
