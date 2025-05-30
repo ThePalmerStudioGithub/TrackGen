@@ -5,7 +5,7 @@
 	--background-1: #7EA16B;
 	--background-2: #FBAF00;
 	--background-3: #00511C;
-	--foreground-1: #FFD639;
+	--foreground-1: black;
 	--foreground-2: #007CBE;
 	--highlight: #FFA3AF;
 }
@@ -16,7 +16,9 @@
 	box-sizing: border-box;
 }
 
-body,
+body {
+	text-align:center;
+}
 html {
 	font-family: 'Varela Round', sans-serif;
 	background-color: var(--background-1);
