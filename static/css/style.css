@@ -82,7 +82,7 @@ main {
 	font-size: 2vh;
 	padding: 0.5vh;
 	text-align: center;
-	color: var(--foreground-1);
+	color: black;
 	background-color: transparent;
 	border: none;
 	border-right: 1px solid var(--foreground-2);
@@ -285,7 +285,7 @@ ion-icon+span {
 	width: max-content;
 	margin: 0 auto 1vh auto;
 	font-size: 2.5vh;
-	color: var(--foreground-1);
+	color: black;
 }
 
 
@@ -440,7 +440,7 @@ ion-icon+span {
 }
 
 #options-container {
-	color: white;
+	color: black;
 	font-size: 17px;
 	margin: .5rem auto;
 	white-space: normal;
