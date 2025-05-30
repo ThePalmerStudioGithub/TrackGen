@@ -1,14 +1,4 @@
-# [TrackGen](https://strawberrymaster.github.io/TrackGen)
-
-The simplest tropical cyclone track map generator. This is an enhanced fork of [TrackGen](https://trackgen.codingcactus.repl.co/) by [CodingCactus](https://github.com/Coding-Cactus) — among the changes made here are:
-
-- Support for multiple Blue Marble maps
-- Ability to import and export your tracks for usage on other projects, in JSON and HURDAT format
-- Support for raw URLs, such as those hosted on Github Gists and Pastebin
-- (Technically) more optimized code
-- Dark theme!
-- Support for STORMS database files
-- Full PWA support, letting you use this offline and without having to download a ~250MB map file
+# TrackTempest
 
 ## Usage
 
